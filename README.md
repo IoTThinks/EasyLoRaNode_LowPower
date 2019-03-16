@@ -1,4 +1,4 @@
-# EasyLoRaNode LowPower
+# Easy LoRa Node - Low Power (With battery)
 Low-Power Easy LoRa Node with STM32L0 and LoRa SX1278
 Hardware is Dragino LSN50 v1.0 https://wiki.dragino.com/index.php?title=Lora_Sensor_Node-LSN50
 
