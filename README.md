@@ -16,7 +16,7 @@ Code is written in Arduino style from stm32duino https://github.com/stm32duino/A
 * LSN50 -> STLink v2
 * PA14 -> SWCLK
 * PA13 -> SWDIO
-*VCC -> 3.3+
+* VCC -> 3.3+
 * GND -> GND
 
 Switch of LSN50 is ISP.
