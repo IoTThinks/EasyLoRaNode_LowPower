@@ -13,19 +13,19 @@ Code is written in Arduino style from stm32duino https://github.com/stm32duino/A
 
 ## 2. Connect to hardware
 ### 2.1 Use STLink v2 to upload code
-LSN50 -> STLink v2
-PA14 -> SWCLK
-PA13 -> SWDIO
-VCC -> 3.3+
-GND -> GND
+* LSN50 -> STLink v2
+* PA14 -> SWCLK
+* PA13 -> SWDIO
+*VCC -> 3.3+
+* GND -> GND
 
 Switch of LSN50 is ISP.
 
 ### 2.2 Use UART to debug
-LSN50 -> CP1202 USB TTL
-GND -> GND
-PA2 -> RX
-PA3 -> TX
+* LSN50 -> CP1202 USB TTL
+* GND -> GND
+* PA2 -> RX
+* PA3 -> TX
 
 ## 3. Programming guides
 
