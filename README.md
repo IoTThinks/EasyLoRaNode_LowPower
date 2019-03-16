@@ -1,8 +1,8 @@
-# EasyLoRaNode_LowPower
+# EasyLoRaNode LowPower
 Low-Power Easy LoRa Node with STM32L0 and LoRa SX1278
 Hardware is Dragino LSN50 v1.0 https://wiki.dragino.com/index.php?title=Lora_Sensor_Node-LSN50
 
-Code is written in Arduino style from stm32duino.
+Code is written in Arduino style from stm32duino https://github.com/stm32duino/Arduino_Core_STM32
 
 ## Hardware
 ### Pin locations
@@ -13,6 +13,13 @@ Code is written in Arduino style from stm32duino.
 
 ## Connect to hardware
 ### Use STLink v2 to upload code
+LSN50 -> STLink v2
+PA14 -> SWCLK
+PA13 -> SWDIO
+VCC -> 3.3+
+GND -> GND
+
+Switch of LSN50 is ISP.
 
 ### Use UART to debug
 
