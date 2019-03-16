@@ -8,7 +8,7 @@ Code is written in Arduino style from stm32duino https://github.com/stm32duino/A
 ### 1.1 Pin locations
 ![lsn50](https://user-images.githubusercontent.com/29994971/54474734-02cfcb00-481b-11e9-9166-04b12303a5eb.png)
 
-### 1.2 Pin mapping
+### 1.2 Pin mapping (Reference to a similar board)
 ![disco_l072cz_lrwan1_2017-06-30_s4](https://user-images.githubusercontent.com/29994971/54474735-095e4280-481b-11e9-8ca4-b21c4cde157e.png)
 
 ## 2. Connect to hardware
@@ -30,7 +30,7 @@ Switch of LSN50 is ISP.
 ## 3. Programming guides
 
 ## 4. Reference
-User manual for v1.0
+* User manual for v1.0
 [LSN50_LoRa_Sensor_Node_UserManual_v1.0.pdf](https://github.com/IoTThinks/EasyLoRaNode_LowPower/files/2973844/LSN50_LoRa_Sensor_Node_UserManual_v1.0.pdf)
 
-AT Manual for stock firmware [DRAGINO_STM_AT_Commands_v1.3.pdf](https://github.com/IoTThinks/EasyLoRaNode_LowPower/files/2973845/DRAGINO_STM_AT_Commands_v1.3.pdf)
+* AT Manual for stock firmware [DRAGINO_STM_AT_Commands_v1.3.pdf](https://github.com/IoTThinks/EasyLoRaNode_LowPower/files/2973845/DRAGINO_STM_AT_Commands_v1.3.pdf)
