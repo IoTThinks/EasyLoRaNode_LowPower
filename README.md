@@ -79,10 +79,11 @@ PB_0, //D40 - RADIO_DIO_2_PORT
 PC_13, //D41 - RADIO_DIO_3_PORT
 
 ### 3.2 Installation of stm32duino to Arduino IDE
-TODO
+Additional Boards Manager URLs: https://github.com/stm32duino/BoardManagerFiles/raw/master/STM32/package_stm_index.json
+![lsn50-installation](https://user-images.githubusercontent.com/29994971/55409705-b14e6c80-558c-11e9-827b-2833cfe7e0e3.png)
 
 ### 3.3 Compilation of Arduino code using Arduino IDE on STM32 board
-
+![lsn50-compilation](https://user-images.githubusercontent.com/29994971/55409490-5452b680-558c-11e9-8f01-c65ff357ca13.png)
 
 ## 4. Reference
 * User manual for v1.0
