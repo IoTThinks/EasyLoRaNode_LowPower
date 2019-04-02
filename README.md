@@ -6,7 +6,7 @@ Code is written in Arduino style from stm32duino https://github.com/stm32duino/A
 
 ## 1. Hardware
 ### 1.1 Pin locations
-![lsn50](https://user-images.githubusercontent.com/29994971/54474734-02cfcb00-481b-11e9-9166-04b12303a5eb.png)
+![lsn50-pinout](https://user-images.githubusercontent.com/29994971/55409802-e5c22880-558c-11e9-89fc-4ef4a07bb9c2.png)
 
 ### 1.2 Pin mapping for STM32L072CZT6 (used by LSN50)
 ![stm32L0](https://user-images.githubusercontent.com/29994971/55408675-b3173080-558a-11e9-8747-4baf99477c76.jpg)
