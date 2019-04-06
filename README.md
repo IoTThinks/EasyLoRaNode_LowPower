@@ -9,6 +9,7 @@ Code is written in Arduino style from stm32duino https://github.com/stm32duino/A
 ![lsn50-pinout](https://user-images.githubusercontent.com/29994971/55409802-e5c22880-558c-11e9-89fc-4ef4a07bb9c2.png)
 
 ### 1.2 Pin mapping for STM32L072CZT6 (used by LSN50)
+Original at https://github.com/dragino/Lora/blob/master/LoRaST/v1.0/LoRa%20ST%20v1.0_Sch.pdf?fbclid=IwAR1Ey83gfosQHjDYNEcPj2DbBNEWBTs1vfw0rqs8TrYPi85JRy-okqBYBAE
 ![stm32L0](https://user-images.githubusercontent.com/29994971/55408675-b3173080-558a-11e9-8747-4baf99477c76.jpg)
 
 ### 1.3 Pin mapping for similar board Discovery_1072CZ_LRWAN1 (supported by stm21duino)
