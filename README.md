@@ -3,6 +3,7 @@ Low-Power Easy LoRa Node with STM32L0 and LoRa SX1278
 Hardware is Dragino LSN50 v1.0 https://wiki.dragino.com/index.php?title=Lora_Sensor_Node-LSN50
 
 Code is written in Arduino style from stm32duino https://github.com/stm32duino/Arduino_Core_STM32
+* To add variants https://github.com/stm32duino/wiki/wiki/Add-a-new-variant-(board)
 
 ## 1. Hardware
 ### 1.1 Pin locations
