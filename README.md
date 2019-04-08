@@ -10,6 +10,8 @@ Code is written in Arduino style from stm32duino https://github.com/stm32duino/A
 
 ## 1. Hardware
 ### 1.1 Pin locations
+![lsn50 pintout - with detail](https://user-images.githubusercontent.com/29994971/55710783-91e49300-5a15-11e9-8d2c-01034367a500.png)
+
 ![lsn50-pinout](https://user-images.githubusercontent.com/29994971/55409802-e5c22880-558c-11e9-89fc-4ef4a07bb9c2.png)
 
 ### 1.2 Pin mapping for STM32L072CZT6 (used by LSN50)
