@@ -12,14 +12,9 @@ Code is written in Arduino style from stm32duino https://github.com/stm32duino/A
 ### 1.1 Pin locations
 ![lsn50 pintout - with detail](https://user-images.githubusercontent.com/29994971/55710783-91e49300-5a15-11e9-8d2c-01034367a500.png)
 
-![lsn50-pinout](https://user-images.githubusercontent.com/29994971/55409802-e5c22880-558c-11e9-89fc-4ef4a07bb9c2.png)
-
 ### 1.2 Pin mapping for STM32L072CZT6 (used by LSN50)
 Original at https://github.com/dragino/Lora/blob/master/LoRaST/v1.0/LoRa%20ST%20v1.0_Sch.pdf
 ![stm32L0](https://user-images.githubusercontent.com/29994971/55408675-b3173080-558a-11e9-8747-4baf99477c76.jpg)
-
-### 1.3 Pin mapping for similar board Discovery_1072CZ_LRWAN1 (supported by stm21duino)
-![disco_l072cz_lrwan1_2017-06-30_s4](https://user-images.githubusercontent.com/29994971/54474735-095e4280-481b-11e9-8ca4-b21c4cde157e.png)
 
 ## 2. Connect to hardware
 ### 2.1 Use STLink v2 to upload code
@@ -29,7 +24,7 @@ Original at https://github.com/dragino/Lora/blob/master/LoRaST/v1.0/LoRa%20ST%20
 * VCC -> 3.3+
 * GND -> GND
 
-Switch of LSN50 is ISP.
+Switch of LSN50 is ISP to upload code.
 
 ### 2.2 Use UART to debug
 * LSN50 -> CP1202 USB TTL
