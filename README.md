@@ -34,10 +34,10 @@ Switch of LSN50 is ISP to upload code.
 
 ## 3. Programming guides
 ### 3.1 Pin translation of LSN50 STM32 to Arduino style
-* #define PA0   1
-* #define PA1	  2
-* #define PA2	  3
-* #define PA3	  4
+* #define PA3   0
+* #define PA2	  1
+* #define PA0	  3
+* #define PA1	  4
 * #define PB6	  5
 * #define PB7	  6
 * #define PB3	  7
