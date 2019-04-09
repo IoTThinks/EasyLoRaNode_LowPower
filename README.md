@@ -34,24 +34,24 @@ Switch of LSN50 is ISP to upload code.
 
 ## 3. Programming guides
 ### 3.1 Pin translation of LSN50 STM32 to Arduino style
-#define PA0   1
-#define PA1	  2
-#define PA2	  3
-#define PA3	  4
-#define PB6	  5
-#define PB7	  6
-#define PB3	  7
-#define PB4	  8
-#define PA9	  9
-#define PA10 10
-#define PA12 14 
-#define PA11 15
-#define PA14 16
-#define PB12 17
-#define PB15 18
-#define PB14 19
-#define PA13 20
-#define PA8  21
+* #define PA0   1
+* #define PA1	  2
+* #define PA2	  3
+* #define PA3	  4
+* #define PB6	  5
+* #define PB7	  6
+* #define PB3	  7
+* #define PB4	  8
+* #define PA9	  9
+* #define PA10 10
+* #define PA12 14 
+* #define PA11 15
+* #define PA14 16
+* #define PB12 17
+* #define PB15 18
+* #define PB14 19
+* #define PA13 20
+* #define PA8  21
 
 ### 3.2 Installation of stm32duino to Arduino IDE
 Additional Boards Manager URLs: https://github.com/stm32duino/BoardManagerFiles/raw/master/STM32/package_stm_index.json
