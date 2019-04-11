@@ -24,24 +24,57 @@ extern "C" {
 
 // Pin number
 const PinName digitalPin[] = {
-  PA_0,  //0
-  PA_1,	 //1
-  PA_2,	 //2
-  PA_3,  //3 
-  PB_6,  //4
-  PB_7,  //5
-  PB_3,  //6
-  PB_4,	 //7
-  PA_9,  //8
-  PA_10, //9
-  PA_12, //13
-  PA_11, //14
-  PA_14, //15
-  PB_12, //16
-  PB_15, //17
-  PB_14, //18
-  PA_13, //19
-  PA_8,   //20
+  // VDD
+  PC_13,
+  // PC_14
+  // PC_15
+  // PH_0
+  // PH_1
+  // NRST
+  // VSSA
+  // VDDA
+  PA_0,
+  PA_1,
+  PA_2,
+  PA_3,
+  PA_4,
+  PA_5,
+  PA_6,
+  PA_7,
+  PB_0,
+  PB_1,
+  PB_2,
+  PB_10,
+  PB_11,
+  // VSS 
+  // VDD
+  PB_12,
+  PB_13,
+  PB_14,
+  PB_15,
+  PA_8,
+  PA_9,
+  PA_10,
+  PA_11,
+  PA_12,
+  PA_13,
+  // VSS 
+  // VDDI02
+  PA_14,
+  PA_15,
+  PB_3,
+  PB_4,
+  PB_5,
+  PB_6,
+  PB_7,
+  // BOOT0
+  PB_8,
+  PB_9,
+  // VSS
+  // VDD
+  
+  
+  
 };
 
 #ifdef __cplusplus

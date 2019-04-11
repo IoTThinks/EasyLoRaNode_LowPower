@@ -33,27 +33,57 @@ extern "C"{
  *----------------------------------------------------------------------------*/
 extern const PinName digitalPin[];
 
-#define PA0   0
-#define PA1   1
-#define PA2   2
-#define PA3	  3
-#define PB6	  4
-#define PB7	  5
-#define PB3	  6
-#define PB4	  7
-#define PA9	  8
-#define PA10  9
-#define PA12 13 
-#define PA11 14
-#define PA14 15
-#define PB12 16
+  // VDD
+#define PC13 0
+  // PC_14
+  // PC_15
+  // PH_0
+  // PH_1
+  // NRST
+  // VSSA
+  // VDDA
+#define PA0 1
+#define PA1 2
+#define PA2 3
+#define PA3 4
+#define PA4 5
+#define PA5 6
+#define PA6 7
+#define PA7 8
+#define PB0 9
+#define PB1 10
+#define PB2 11
+#define PB10 12
+#define PB11 13
+  // VSS 
+  // VDD
+#define PB12 14
+#define PB13 15
+#define PB14 16
 #define PB15 17
-#define PB14 18
-#define PA13 19
-#define PA8  20
+#define PA8 18
+#define PA9 19
+#define PA10 20
+#define PA11 21
+#define PA12 22
+#define PA13 23
+  // VSS 
+  // VDDI02
+#define PA14 24
+#define PA15 25
+#define PB3 26
+#define PB4 27
+#define PB5 28
+#define PB6 29
+#define PB7 30
+  // BOOT0
+#define PB8 31
+#define PB9 32
+  // VSS
+  // VDD
 
 // This must be a literal
-#define NUM_DIGITAL_PINS        42
+#define NUM_DIGITAL_PINS        33
 // This must be a literal with a value less than or equal to to MAX_ANALOG_INPUTS
 #define NUM_ANALOG_INPUTS       7
 #define NUM_ANALOG_FIRST        26
