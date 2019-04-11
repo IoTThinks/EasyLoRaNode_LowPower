@@ -4,6 +4,7 @@ Low-Power Easy LoRa Node with STM32L0 and LoRa SX1278
 * Internal LoRaST module: https://wiki.dragino.com/index.php?title=LoRa_ST
 
 Code is written in Arduino style from stm32duino https://github.com/stm32duino/Arduino_Core_STM32
+Other stm32duino libraries: https://www.arduinolibraries.info/authors/stm32duino
 
 ## 1. Hardware
 ### 1.1 Pin locations
