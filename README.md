@@ -44,55 +44,6 @@ Additional Boards Manager URLs: https://github.com/stm32duino/BoardManagerFiles/
 * STM32 Source file location: https://github.com/stm32duino/wiki/wiki/Where-are-sources#stm32-core-sources-files-location
 * Genpinmap for STM32L072CZT6 (used by LSN50) https://github.com/stm32duino/Arduino_Tools/tree/master/src/genpinmap/Arduino/STM32L072C(B-Z)Tx
 * QUICK START - Custom variant for LSN50 by EASY LORA team) https://github.com/IoTThinks/EasyLoRaNode_LowPower/tree/master/stm32duino
-
-*	  // VDD
-*	 #define PC13 0
-*	  // PC_14
-*	  // PC_15
-*	  // PH_0
-*	  // PH_1
-*	  // NRST
-*	  // VSSA
-*	  // VDDA
-*	#define PA0 1
-*	#define PA1 2
-*	#define PA2 3
-*	#define PA3 4
-*	#define PA4 5
-*	#define PA5 6
-*	#define PA6 7
-*	#define PA7 8
-*	#define PB0 9
-*	#define PB1 10
-*	#define PB2 11
-*	#define PB10 12
-*	#define PB11 13
-*	  // VSS 
-*	  // VDD
-*	#define PB12 14
-*	#define PB13 15
-*	#define PB14 16
-*	#define PB15 17
-*	#define PA8 18
-*	#define PA9 19
-*	#define PA10 20
-*	#define PA11 21
-*	#define PA12 22
-*	#define PA13 23
-*	  // VSS 
-*	  // VDDI02
-*	#define PA14 24
-*	#define PA15 25
-*	#define PB3 26
-*	#define PB4 27
-*	#define PB5 28
-*	#define PB6 29
-*	#define PB7 30
-*	  // BOOT0
-*	#define PB8 31
-*	#define PB9 32
-*	  // VSS
-*	  // VDD
   
 ### 3.3 Compilation of Arduino code using Arduino IDE on STM32 board
 ![lsn50-compilation](https://user-images.githubusercontent.com/29994971/55931782-0c4d2700-5c51-11e9-91d2-9d80c77d31a0.png)
