@@ -1,4 +1,4 @@
-# Easy LoRa Node - Low Power (With battery)
+# Easy LoRa Node - Low Power (With STM32L0, LoRa and battery)
 Low-Power Easy LoRa Node with STM32L0 and LoRa SX1278
 * Hardware is Dragino LSN50 v1.0: https://wiki.dragino.com/index.php?title=Lora_Sensor_Node-LSN50
 * Internal LoRaST module: https://wiki.dragino.com/index.php?title=LoRa_ST
@@ -15,6 +15,8 @@ Original at https://github.com/dragino/Lora/blob/master/LoRaST/v1.0/LoRa%20ST%20
 
 ## 2. Connect to hardware
 ### 2.1 Use STLink v2 to upload code
+![stlink](https://user-images.githubusercontent.com/29994971/55932515-38b67280-5c54-11e9-85ab-d6fdeee5cf2b.png)
+
 * LSN50 -> STLink v2
 * PA14 -> SWCLK
 * PA13 -> SWDIO
