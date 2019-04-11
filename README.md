@@ -27,6 +27,8 @@ Switch of LSN50 is ISP to upload code.
 It's recommended to remove UART TTL USB before uploading code via STLink
 
 ### 2.2 Use UART to debug
+![uart](https://user-images.githubusercontent.com/29994971/55932615-a06cbd80-5c54-11e9-8495-a97811dfcb39.jpg)
+
 * LSN50 -> CP1202 USB TTL
 * GND -> GND
 * PA2 -> RX
