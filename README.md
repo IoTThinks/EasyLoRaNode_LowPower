@@ -22,6 +22,7 @@ Original at https://github.com/dragino/Lora/blob/master/LoRaST/v1.0/LoRa%20ST%20
 * GND -> GND
 
 Switch of LSN50 is ISP to upload code.
+It's recommended to remove UART TTL USB before uploading code via STLink
 
 ### 2.2 Use UART to debug
 * LSN50 -> CP1202 USB TTL
@@ -41,7 +42,7 @@ Additional Boards Manager URLs: https://github.com/stm32duino/BoardManagerFiles/
 * QUICK START - Custom variant for LSN50 https://github.com/IoTThinks/EasyLoRaNode_LowPower/tree/master/stm32duino
 
 ### 3.3 Compilation of Arduino code using Arduino IDE on STM32 board
-![lsn50-compilation](https://user-images.githubusercontent.com/29994971/55409490-5452b680-558c-11e9-8f01-c65ff357ca13.png)
+![lsn50-compilation](https://user-images.githubusercontent.com/29994971/55931782-0c4d2700-5c51-11e9-91d2-9d80c77d31a0.png)
 
 ## 4. Reference
 * User manual for v1.0
