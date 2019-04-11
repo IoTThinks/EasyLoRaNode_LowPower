@@ -4,9 +4,6 @@ Low-Power Easy LoRa Node with STM32L0 and LoRa SX1278
 * Internal LoRaST module: https://wiki.dragino.com/index.php?title=LoRa_ST
 
 Code is written in Arduino style from stm32duino https://github.com/stm32duino/Arduino_Core_STM32
-* STM32 Source file location: https://github.com/stm32duino/wiki/wiki/Where-are-sources#stm32-core-sources-files-location
-* To add variants https://github.com/stm32duino/wiki/wiki/Add-a-new-variant-(board)
-* Genpinmap https://github.com/stm32duino/Arduino_Tools/tree/master/src/genpinmap/Arduino/STM32L072C(B-Z)Tx
 
 ## 1. Hardware
 ### 1.1 Pin locations
@@ -33,29 +30,15 @@ Switch of LSN50 is ISP to upload code.
 * PA3 -> TX
 
 ## 3. Programming guides
-### 3.1 Pin translation of LSN50 STM32 to Arduino style
-* #define PA3   0
-* #define PA2	  1
-* #define PA0	  3
-* #define PA1	  4
-* #define PB6	  5
-* #define PB7	  6
-* #define PB3	  7
-* #define PB4	  8
-* #define PA9	  9
-* #define PA10 10
-* #define PA12 14 
-* #define PA11 15
-* #define PA14 16
-* #define PB12 17
-* #define PB15 18
-* #define PB14 19
-* #define PA13 20
-* #define PA8  21
-
-### 3.2 Installation of stm32duino to Arduino IDE
+### 3.1 Installation of stm32duino to Arduino IDE
 Additional Boards Manager URLs: https://github.com/stm32duino/BoardManagerFiles/raw/master/STM32/package_stm_index.json
 ![lsn50-installation](https://user-images.githubusercontent.com/29994971/55409705-b14e6c80-558c-11e9-827b-2833cfe7e0e3.png)
+
+### 3.2 Add STM32 variant
+* STM32 Source file location: https://github.com/stm32duino/wiki/wiki/Where-are-sources#stm32-core-sources-files-location
+* To add variants https://github.com/stm32duino/wiki/wiki/Add-a-new-variant-(board)
+* Genpinmap for STM32L072CZT6 (used by LSN50) https://github.com/stm32duino/Arduino_Tools/tree/master/src/genpinmap/Arduino/STM32L072C(B-Z)Tx
+* Custom variant for LSN50 https://github.com/IoTThinks/EasyLoRaNode_LowPower/tree/master/stm32duino
 
 ### 3.3 Compilation of Arduino code using Arduino IDE on STM32 board
 ![lsn50-compilation](https://user-images.githubusercontent.com/29994971/55409490-5452b680-558c-11e9-8f01-c65ff357ca13.png)
