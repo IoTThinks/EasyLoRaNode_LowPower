@@ -57,3 +57,5 @@ Additional Boards Manager URLs: https://github.com/stm32duino/BoardManagerFiles/
 * AT Manual for stock firmware [DRAGINO_STM_AT_Commands_v1.3.pdf](https://github.com/IoTThinks/EasyLoRaNode_LowPower/files/2973845/DRAGINO_STM_AT_Commands_v1.3.pdf)
 
 * SHT1x library https://github.com/practicalarduino/SHT1x
+
+* Arduino LoRa STM32 https://github.com/armtronix/arduino-LoRa-STM32
