@@ -24,57 +24,51 @@ extern "C" {
 
 // Pin number
 const PinName digitalPin[] = {
-  // VDD
-  PC_13,
-  // PC_14
-  // PC_15
-  // PH_0
-  // PH_1
-  // NRST
-  // VSSA
-  // VDDA
-  PA_0,
-  PA_1,
-  PA_2,
-  PA_3,
-  PA_4,
-  PA_5,
-  PA_6,
-  PA_7,
-  PB_0,
-  PB_1,
-  PB_2,
-  PB_10,
-  PB_11,
-  // VSS 
-  // VDD
-  PB_12,
-  PB_13,
-  PB_14,
-  PB_15,
-  PA_8,
-  PA_9,
-  PA_10,
-  PA_11,
-  PA_12,
-  PA_13,
-  // VSS 
-  // VDDI02
-  PA_14,
-  PA_15,
-  PB_3,
-  PB_4,
-  PB_5,
-  PB_6,
-  PB_7,
-  // BOOT0
-  PB_8,
-  PB_9,
-  // VSS
-  // VDD
-  
-  
-  
+  PA_3,  //D0
+  PA_2,  //D1
+  PA_10, //D2
+  PB_13, //D3
+  PB_5,  //D4
+  PB_7,  //D5
+  PB_2,  //D6
+  PA_8,  //D7
+  PA_9,  //D8
+  PB_12, //D9
+  PB_6,  //D10
+  PB_15, //D11
+  PB_14, //D12
+  PB_13, //D13 - default SB2 is closed
+  PB_9,  //D14
+  PB_8,  //D15
+// Non-arduino headers
+// Connector CN2
+  NC,    //D16 - BOOT0
+  PA_13, //D17 - SWD
+  PA_14, //D18 - SWD
+  PH_1,  //D19
+  PH_0,  //D20
+// Connector CN3
+  PA_1,  //D21
+  PC_2,  //D22
+  PC_1,  //D23
+  PA_12, //D24
+  PA_11, //D25
+  PA_0,  //D26/A0
+  PA_0,  //D27/A1 - alias for A0 - requires closing solder bridge SB7
+  PA_4,  //D28/A2 - RADIO_DIO_5_PORT
+  PA_4,  //D29/A3 - alias for A2 - requires closing solder bridge SB8
+  PB_9,  //D30/A4 - requires closing solder bridge SB11
+  PB_8,  //D31/A5 - requires closing solder bridge SB12
+  PA_5,  //D32/A6 - RADIO_DIO_4_PORT
+  PC_0,  //D33 - RADIO_RESET_PORT
+  PA_7,  //D34 - RADIO_MOSI_PORT
+  PA_6,  //D35 - RADIO_MISO_PORT
+  PB_3,  //D36 - RADIO_SCLK_PORT
+  PA_15, //D37 - RADIO_NSS_PORT
+  PB_4,  //D38 - RADIO_DIO_0_PORT
+  PB_1,  //D39 - RADIO_DIO_1_PORT
+  PB_0,  //D40 - RADIO_DIO_2_PORT
+  PC_13, //D41 - RADIO_DIO_3_PORT
 };
 
 #ifdef __cplusplus
