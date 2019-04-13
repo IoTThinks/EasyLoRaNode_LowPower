@@ -55,3 +55,5 @@ Additional Boards Manager URLs: https://github.com/stm32duino/BoardManagerFiles/
 [LSN50_LoRa_Sensor_Node_UserManual_v1.0.pdf](https://github.com/IoTThinks/EasyLoRaNode_LowPower/files/2973844/LSN50_LoRa_Sensor_Node_UserManual_v1.0.pdf)
 
 * AT Manual for stock firmware [DRAGINO_STM_AT_Commands_v1.3.pdf](https://github.com/IoTThinks/EasyLoRaNode_LowPower/files/2973845/DRAGINO_STM_AT_Commands_v1.3.pdf)
+
+* SHT1x library https://github.com/practicalarduino/SHT1x
