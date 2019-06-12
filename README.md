@@ -46,7 +46,9 @@ Additional Boards Manager URLs: https://github.com/stm32duino/BoardManagerFiles/
 * Instruction to add variants https://github.com/stm32duino/wiki/wiki/Add-a-new-variant-(board)
 * STM32 Source file location: https://github.com/stm32duino/wiki/wiki/Where-are-sources#stm32-core-sources-files-location
 * Genpinmap for STM32L072CZT6 (used by LSN50) https://github.com/stm32duino/Arduino_Tools/tree/master/src/genpinmap/Arduino/STM32L072C(B-Z)Tx
-* QUICK START - Custom variant for LSN50 by EASY LORA team) https://github.com/IoTThinks/EasyLoRaNode_LowPower/tree/master/stm32duino
+* QUICK START - Custom variant for LSN50 by EASY LORA team)
+Copy and modify these file in C:\Users\<username>\AppData\Local\Arduino15\packages\STM32\hardware\stm32\1.5.0
+https://github.com/IoTThinks/EasyLoRaNode_LowPower/tree/master/stm32duino
   
 ### 3.3 Compilation of Arduino code using Arduino IDE on STM32 board
 ![lsn50-compilation](https://user-images.githubusercontent.com/29994971/55931782-0c4d2700-5c51-11e9-91d2-9d80c77d31a0.png)
