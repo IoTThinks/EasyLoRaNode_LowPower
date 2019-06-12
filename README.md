@@ -22,7 +22,7 @@ Original at https://github.com/dragino/Lora/blob/master/LoRaST/v1.0/LoRa%20ST%20
 
 * LSN50 -> STLink v2
 * PA14 -> SWCLK
-* PA13 -> SWDIO
+* PA13 -> SWDIO. NOTE: NEXT TO PA13 is PB14. WE NEED PA14!!!
 * VCC -> 3.3+
 * GND -> GND
 
