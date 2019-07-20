@@ -51,9 +51,11 @@ Copy and modify these file in C:\Users\<username>\AppData\Local\Arduino15\packag
 https://github.com/IoTThinks/EasyLoRaNode_LowPower/tree/master/stm32duino
   
 ### 3.3 Compilation of Arduino code using Arduino IDE on STM32 board
-* Port COM4 in the picture is for UART. This is for debugging purpose.
-* The port is blank when we use STLink to upload code and UART USB is not plugged in.
+Port COM4 in the picture is for UART. This is for debugging purpose.
 ![lsn50-compilation](https://user-images.githubusercontent.com/29994971/55931782-0c4d2700-5c51-11e9-91d2-9d80c77d31a0.png)
+
+The port is blank when we use STLink to upload code and UART USB is not plugged in
+![image](https://user-images.githubusercontent.com/29994971/61577990-9727a280-ab19-11e9-8e37-f5a4bba07b25.png)
 
 ## 4. Reference
 * User manual for v1.0
