@@ -4,27 +4,32 @@
 void setup() {  
   Serial.begin(9600);
   Serial.println("Hello LSN50");    
+
+  // Configure low power
+  LowPower.begin();
   
   // Setup sensor
   setupSensor();
 
   // Setup LoRa
-  setupLoRa();
-
-  // Configure low power
-  LowPower.begin();
+  setupLoRa();  
 }
 
-void loop() {
+void loop() { 
+  // After sleep, doing some work
+  Serial.println("Doing some work...");
+  
   // Get sensor information 
   String sensorMessage = getSensorInfo();
-
-  // Slow down a bit to let everything warm up?
-  delay(1000);
-  
+ 
   // Send to gateway
   sendLoRaMessage(sensorMessage);
-
-  // Deep sleep   
-  LowPower.deepSleep(10000);  
+ 
+  // Deep sleep       
+  Serial.println("Going to sleep...");  
+  //LoRa.sleep();
+  //LowPower.sleep(10000);
+  LowPower.deepSleep(10000);
+  //LowPower.shutdown(10000);  
+  //LoRa.idle();
 }

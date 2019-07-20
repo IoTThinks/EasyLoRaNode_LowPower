@@ -2,9 +2,6 @@
 // Lora
 // https://github.com/sandeepmistry/arduino-LoRa/blob/master/API.md
 // ====================================
-// Status
-String LORA_Status = "Not Initialized";
-String LORA_Lastreceived_Msg ="--No data--";
 
 // Setup Lora
 void setupLoRa() {
@@ -14,13 +11,14 @@ void setupLoRa() {
   SPI.setMOSI(LORA_MOSI);
   SPI.setSCLK(LORA_SCK);
   SPI.setSSEL(LORA_NSS);
+  //SPI.begin();
+  
   LoRa.setPins(LORA_NSS, LORA_NRESET, LORA_DIO0);
   //SPI.begin(LORA_SCK, LORA_MISO, LORA_MOSI, LORA_SS);
   //LoRa.setPins(NSS, NRESET, DIO0);
   
   while (!LoRa.begin(433E6)) {
-    Serial.println("[LoRa] Starting LoRa failed!");    
-    LORA_Status="FAILED";
+    Serial.println("[LoRa] Starting LoRa failed!");
     delay(1000);
   }
 
@@ -28,8 +26,9 @@ void setupLoRa() {
   LoRa.setCodingRate4(LORA_CR); //4/5
   LoRa.setSignalBandwidth(LORA_BW);
   LoRa.setPreambleLength(LORA_PREAMBLE_LENGTH);
-  
-  LORA_Status = "OK";
+
+  // Enable CRC to avoid packet sending corruption after deep sleep
+  LoRa.enableCrc();
 }
 
 String receiveLoRaMessage() {
@@ -71,11 +70,10 @@ String receiveLoRaMessage() {
   Serial.println();
   */
 
-  LORA_Lastreceived_Msg = incoming;
   return incoming;
 }
 
-// NOT tested yet
+// Send LoRa message
 void sendLoRaMessage(String outgoing) {
   Serial.println("[LoRa]=> Sending packet: " + outgoing);
   LoRa.beginPacket();                   // start packet
