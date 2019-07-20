@@ -18,10 +18,11 @@ Original at https://github.com/dragino/Lora/blob/master/LoRaST/v1.0/LoRa%20ST%20
 
 ## 2. Connect to hardware
 ### 2.1 Use STLink v2 to upload code
-STLink v2 USB
+#### STLink v2 USB
+Driver is at https://www.st.com/en/development-tools/st-link-v2.html#tools-software
 ![stlink](https://user-images.githubusercontent.com/29994971/55932515-38b67280-5c54-11e9-85ab-d6fdeee5cf2b.png)
 
-Pin mapping
+#### Pin mapping
 * LSN50 -> STLink v2
 * PA14 -> SWCLK
 * PA13 -> SWDIO. NOTE: NEXT TO PA13 is PB14. WE NEED PA14!!!
