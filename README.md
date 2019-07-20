@@ -18,16 +18,23 @@ Original at https://github.com/dragino/Lora/blob/master/LoRaST/v1.0/LoRa%20ST%20
 
 ## 2. Connect to hardware
 ### 2.1 Use STLink v2 to upload code
+STLink v2 USB
 ![stlink](https://user-images.githubusercontent.com/29994971/55932515-38b67280-5c54-11e9-85ab-d6fdeee5cf2b.png)
 
+Pin mapping
 * LSN50 -> STLink v2
 * PA14 -> SWCLK
 * PA13 -> SWDIO. NOTE: NEXT TO PA13 is PB14. WE NEED PA14!!!
 * VCC -> 3.3+
 * GND -> GND
 
+![IMG_5387](https://user-images.githubusercontent.com/29994971/61577999-d655f380-ab19-11e9-9e19-86551319ea89.JPG)
+
 Switch of LSN50 is ISP to upload code.
 It's recommended to remove UART TTL USB before uploading code via STLink
+
+STLink v2 will show up in USB Device, not Ports (COM & LPT)
+![image](https://user-images.githubusercontent.com/29994971/61578026-698f2900-ab1a-11e9-9233-5b52c1c0e661.png)
 
 ### 2.2 Use UART to debug
 ![uart](https://user-images.githubusercontent.com/29994971/55932615-a06cbd80-5c54-11e9-8495-a97811dfcb39.jpg)
