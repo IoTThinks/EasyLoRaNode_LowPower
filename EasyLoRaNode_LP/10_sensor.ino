@@ -6,7 +6,7 @@ String getSensorInfo() {
   float tempC = sht1x.readTemperatureC();
   float humidity = sht1x.readHumidity();
  
-  String sensorMessage = "TempC=" + String(tempC) + " | Humidity=" + String(humidity);
+  String sensorMessage = "T:" + String(tempC) + " | H:" + String(humidity);
   Serial.println("[Sensor] => " + sensorMessage);
 
   return sensorMessage;
