@@ -10,7 +10,7 @@ STM32DUINO liraries
 
 ## 1. Hardware
 ### 1.1 Pin locations
-![lsn50 pintout - with detail](https://user-images.githubusercontent.com/29994971/55710783-91e49300-5a15-11e9-8d2c-01034367a500.png)
+![EasyLoRaLowPowerNode-Pinout](https://user-images.githubusercontent.com/29994971/63254718-6d8ba380-c29e-11e9-8937-20526721daa8.png)
 
 ### 1.2 Pin mapping for STM32L072CZT6 (used by LSN50)
 Original at https://github.com/dragino/Lora/blob/master/LoRaST/v1.0/LoRa%20ST%20v1.0_Sch.pdf
