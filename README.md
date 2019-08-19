@@ -68,9 +68,8 @@ The port is blank when we use STLink to upload code and UART USB is not plugged 
 ## 4. Reference
 * User manual for v1.0
 [LSN50_LoRa_Sensor_Node_UserManual_v1.0.pdf](https://github.com/IoTThinks/EasyLoRaNode_LowPower/files/2973844/LSN50_LoRa_Sensor_Node_UserManual_v1.0.pdf)
-
 * AT Manual for stock firmware [DRAGINO_STM_AT_Commands_v1.3.pdf](https://github.com/IoTThinks/EasyLoRaNode_LowPower/files/2973845/DRAGINO_STM_AT_Commands_v1.3.pdf)
-
 * SHT1x library https://github.com/practicalarduino/SHT1x
-
 * Arduino LoRa STM32 https://github.com/armtronix/arduino-LoRa-STM32
+* I2C for STM32 and Arduino https://circuitdigest.com/microcontroller-projects/stm32-stm32f103c8-i2c-communication-tutorial
+
