@@ -7,7 +7,7 @@ STM32DUINO liraries
 * Code is written in Arduino style from stm32duino https://github.com/stm32duino/Arduino_Core_STM32
 * Other stm32duino libraries: https://www.arduinolibraries.info/authors/stm32duino
 * Noted issue with stm32duino and SPI LoRa: https://github.com/stm32duino/Arduino_Core_STM32/issues/279
-* **Updated 2020-06-12: Can add STM32 via Board Manager and use B-L072Z-LRWAN1 directly ** https://github.com/stm32duino/Arduino_Core_STM32#getting-started
+* **Updated 2020-06-12: Can add STM32 via Board Manager and use B-L072Z-LRWAN1 directly** https://github.com/stm32duino/Arduino_Core_STM32#getting-started
 
 Referenced B-L072Z-LRWAN1: It is actually STM32L072CZT6
 * I-CUBE-LRWAN: https://www.st.com/en/embedded-software/i-cube-lrwan.html
@@ -56,7 +56,7 @@ Additional Boards Manager URLs: https://github.com/stm32duino/BoardManagerFiles/
 ![lsn50-installation](https://user-images.githubusercontent.com/29994971/55409705-b14e6c80-558c-11e9-827b-2833cfe7e0e3.png)
 
 ### 3.2 Add STM32 variant
-* **Updated 2020-06-12: Can add STM32 via Board Manager and use B-L072Z-LRWAN1 directly ** https://github.com/stm32duino/Arduino_Core_STM32#getting-started
+* **Updated 2020-06-12: Can add STM32 via Board Manager and use B-L072Z-LRWAN1 directly** https://github.com/stm32duino/Arduino_Core_STM32#getting-started
 
 Outdated steps
 * Instruction to add variants https://github.com/stm32duino/wiki/wiki/Add-a-new-variant-(board)
