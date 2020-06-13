@@ -7,6 +7,7 @@ STM32DUINO liraries
 * Code is written in Arduino style from stm32duino https://github.com/stm32duino/Arduino_Core_STM32
 * Other stm32duino libraries: https://www.arduinolibraries.info/authors/stm32duino
 * Noted issue with stm32duino and SPI LoRa: https://github.com/stm32duino/Arduino_Core_STM32/issues/279
+* Updated 2020-06-13: Can add STM32 via Board Manager https://github.com/stm32duino/Arduino_Core_STM32#getting-started
 
 Referenced B-L072Z-LRWAN1: It is actually STM32L072CZT6
 * I-CUBE-LRWAN: https://www.st.com/en/embedded-software/i-cube-lrwan.html
